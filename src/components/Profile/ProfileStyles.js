@@ -6,7 +6,8 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #d2d6d5;
+
+  padding: 15px;
 `;
 const Img = styled.img`
   height: 40px;
@@ -20,11 +21,13 @@ const Description = styled.div`
 const Name = styled.p`
   font-size: 24px;
   font-weight: bold;
+  margin-top: 10px;
 `;
 const Text = styled.p`
   font-size: 12px;
   font-weight: 200;
   color: gray;
+  margin-top: 10px;
 `;
 
 const Stats = styled.ul`

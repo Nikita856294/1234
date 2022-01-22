@@ -6,7 +6,7 @@ const Container = styled.div`
   padding-left: 15px;
   padding-right: 15px;
   width: 1440px;
-  background: grey;
+  background-color: #d2d6d5;
 `;
 
 export { Container };
