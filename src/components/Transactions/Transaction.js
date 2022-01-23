@@ -14,11 +14,11 @@ const Transaction = ({ transactions }) => {
       <Tbody>
         {transactions.map(({ id, type, amount, currency }) => {
           return (
-            <tr key={id}>
+            <Tr key={id}>
               <Td>{type}</Td>
               <Td>{amount}</Td>
               <Td>{currency}</Td>
-            </tr>
+            </Tr>
           );
         })}
       </Tbody>
