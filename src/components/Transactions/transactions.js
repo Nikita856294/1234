@@ -5,6 +5,7 @@ const Table = styled.table`
   margin-right: auto;
   border: 1px solid black;
   background-color: white;
+  border-collapse: collapse;
   width: 50%;
 `;
 const Thead = styled.thead`
@@ -16,6 +17,8 @@ const Tr = styled.tr`
 `;
 const Th = styled.th`
   padding: 15px;
+
+  color: white;
   &:not(:last-child) {
     border-right: 1px solid black;
   }
