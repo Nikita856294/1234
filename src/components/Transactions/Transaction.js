@@ -1,4 +1,4 @@
-import { Table, Thead, Tr, Th, Tbody, Td } from './transactions';
+import { Table, Thead, Tr, Th, Tbody, Td } from './TransactionStyled';
 
 const Transaction = ({ transactions }) => {
   return (
